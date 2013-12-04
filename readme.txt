@@ -73,7 +73,7 @@ Add icons from [FontAwesome](http://fortawesome.github.io/Font-Awesome/) for oth
     function storm_social_icons_networks( $networks ) {
 
         $extra_icons = array (
-	        '/feed' => array(                  // Enable this icon for any URL containing this text
+            '/feed' => array(                  // Enable this icon for any URL containing this text
                 'name' => 'RSS',               // Default menu item label
                 'class' => 'rss',              // Custom class
                 'icon' => 'icon-rss',          // FontAwesome class
@@ -86,7 +86,7 @@ Add icons from [FontAwesome](http://fortawesome.github.io/Font-Awesome/) for oth
 
     }
 
-** Option: Change HTML Output**
+**Option: Change HTML Output**
 
 Copy the folder `msi-templates` from `wp-content/plugins/menu-social-icons` to your theme directory. You can then edit the copies in your theme to change the HTML output by the plugin.
 
